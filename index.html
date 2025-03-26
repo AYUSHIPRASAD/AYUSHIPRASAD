@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Mudit's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/profile_pic.jpg" alt="Profile pic" /></a>
+			<h2><strong> Software Engineer </strong></h2>
+			<h1>University of Maryland</h1>
+			<h1>College Park, MD</h1>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2>Mudit Singal</h2>
+			</header>
+			<h3><b> Robotics Engineer | Aerial Robotics | Autonomous Vehicles </b></h3>
+			<p>I am passionate about advancing drone autonomy and autonomous vehicles by employing cutting-edge research into software and hardware solutions. At the University of Maryland, I led a team in developing a 5G public safety drone network, integrating AI-driven human tracking, 5G-enabled BVLOS operations, and MAVLink-based communication. My work also includes containerizing PX4 simulation environment for seamless development of perception and localization modules in simulated environments.</p>
+			<p>My research spans autonomous ground vehicles, where I built an AI-powered e-scooter with real-time localization and computer vision algorithms. Using ROS, Python, and deep learning, I developed a homography-based pose estimation system by leveraging stop signs as visual landmarks. I also containerized multiple perception modules with Docker and GPU acceleration, optimizing performance for embedded platforms.</p>
+			<p>I contributed to Carla Sim by developing a GPU-accelerated Docker image with ROS2 bridge, enabling quick setup and deployment of simulation environments for autonomous vehicle research. This image has been downloaded by 50+ researchers and engineers.</p>
+			<p>As an engineer, I bring expertise in robotics software, embedded systems, and AI-driven autonomy. I excel at integrating diverse technologies, optimizing performance, and developing scalable autonomy solutions. I thrive in collaborative environments and am eager to contribute to teams tackling real-world robotics challenges. Let’s connect and innovate together!</p>
+			
+			<ul class="actions">
+				<li><a href="https://drive.google.com/file/d/1_yvPt1HY0ocM1dvqTFGNjWrMBDQY_J1y/view?usp=sharing" class="button">Resume</a></li>
+			</ul>
+		</section>
+
+		<!-- Two -->
+		<section id="two">
+			<header class="major">
+				<h3>Technical Skills</h3>
+			</header>
+			<ul>
+				<li><b>Languages:</b> C/C++, Python, Embedded C, MATLAB, SQL</li>
+				<li><b>Robotics Development:</b> Localization, Perception, Path Planning, Simulation of autonomous agents, Reinforcement Learning</li>
+				<li><b>Software Libraries and Tools:</b> ROS2, OpenCV, YOLOv7, PyTorch, MAVROS, MAVLink, PX4, CARLA(Unreal Engine), Autoware Universe, TensorFlow, scikit-learn, SolidWorks</li>
+				<li><b>Software Development:</b> Git, Docker, CMake, Google Test, CodeCov, Jira</li>
+				<li><b>Currently Learning:</b> Localization, State Estimation, and MAVROS</li>
+			</ul>
+		</section>
+
+
+		<section id="Three">
+			<h3>PROJECTS</h3>
+			<!--h4><b>Projects in Computer Vision</b></h4-->
+			<div class="row">
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/ball_tracking_demo.gif" class="image fit thumb"><img
+							src="images/ball_tracking_demo.gif" alt="" /></a>
+					<h3>Target detection and tracking using gimbaled UAV camera</h3>
+					<p>Developed a MAVROS, ROS2, and PX4 based target tracking system to track targets in real-time using an on-board gimbaled camera. The system is designed such that it can be run onboard the drone using a companion computer or offboard on a dedicated processing server.</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/stop_sign_pose.png" class="image fit thumb"><img
+							src="images/stop_sign_pose.png" alt="" /></a>
+					<h3>Localization Using Stop Signs</h3>
+					<p>Developed neural-network based localization algorithm that uses stop signs to estimate vehicle pose.</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/Kuka_youbot_manipulation.gif" class="image fit thumb"><img src="images/Kuka_youbot_manipulation.gif"
+							alt="" /></a>
+					<h3>Pick and place using IK solver for KUKA Youbot</h3>
+					<p>Implemented a IK solver for manipulator arm of KUKA Youbot and 4-wheel mechanum chassis kinematics for picking and placing of objects in different settings.</p>
+					<br>
+					<ul class="actions">
+						<li><a href="https://github.com/muditsingal/Kuka_youbot_manipulation.git" class="button">Project Repo</a></li>
+					</ul>
+				</article>
+
+				<article class="col-12 col-12-xsmall work-item">
+					<a href="images/autoware_moving.png" class="image fit thumb"><img
+							src="images/autoware_moving.png" alt="" /></a>
+					<h3>Autonomous Driving Using Autoware Universe and Carla Sim</h3>
+					<p>Autonomous vehicle control done using Autoware Universe interfaced with Carla Simulator. Also checkout my open-source contribution to run Carla Sim with ROS2 bridge all in Nvidia GPU accelerated Docker container.</p>
+					<br>
+					<ul class="actions">
+						<li><a href="https://github.com/muditsingal/ENPM808_ind_study.git" class="button">Autonomous Driving Repo</a></li>
+						<li><a href="https://hub.docker.com/r/muditsingal98/carla_ros2" class="button">Docker Image</a></li>
+					</ul>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/self_balancing_quadrupedal_robot.gif" class="image fit thumb"><img
+							src="images/self_balancing_quadrupedal_robot.gif" alt="" /></a>
+					<h3>Self-balancing algorithm for quadrupedal robots</h3>
+					<p>A low-latency self-balancing algorithm for quadrupedal robots (like Boston Dynamics' Spot) developed using C++, inverse kinematics, and trigonometry.</p>
+					<br>
+					<ul class="actions">
+						<li><a href="https://github.com/muditsingal/self_balancing_quadrupedal_robot.git" class="button">Project Repo</a>
+						</li>
+					</ul>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/Reinforcement_learning_navigation.GIF" class="image fit thumb"><img
+							src="images/Reinforcement_learning_navigation.GIF" alt="" /></a>
+					<h3>Reinforcement learning in custom Gym environment</h3>
+					<p>Navigating a Turtlebot 3 in a custom continuous 2D environment using an implementation of TD3 RL algorithm</p>
+					<br>
+					<ul class="actions">
+						<li><a href="https://github.com/muditsingal/RL-turtlebot3-project.git" class="button">Project Repo</a>
+						</li>
+					</ul>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/A_star_exploration.gif" class="image fit thumb"><img
+							src="images/A_star_exploration.gif" alt="A* navigation" /></a>
+					<h3>Robot Path Planning using A* algorithm</h3>
+					<p>Implementation of A* path planning algorithm in a 2D representation of world with obstacles.</p>
+					<br>
+					<ul class="actions">
+						<li><a href="https://github.com/muditsingal/ENPM661_Project3_phase1.git" class="button">A* implementation repo</a>
+						</li>
+					</ul>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/project_magpie_navigation.gif" class="image fit thumb"><img
+							src="images/project_magpie_navigation.gif" alt="" /></a>
+					<h3>Vision based garbage-collection robot</h3>
+					<p>C++ and ROS2 Humble-based package to collect color-coded garbage blocks using Turtlebot3, simulated on Gazebo.</p>
+					<br>
+					<ul class="actions">
+						<li><a href="" class="button">Check it out</a>
+						</li>
+					</ul>
+				</article>
+
+
+			</div>
+
+			<ul class="actions">
+				<li><a href="https://github.com/muditsingal" class="button">All projects and repositories</a></li>
+			</ul>
+		</section>
+
+		<!-- Six -->
+		<section id="six">
+			<header class="major">
+				<h3>Work Experience</h3>
+			</header>
+			<ul>
+				<h4><b> University of Maryland | College Park, MD | Jun 2024 - Present </b></h4>
+				<h5>Software Engineer </h5>
+				<li>Led a team of 5 for the development of hardware and software modules of a 5G public safety drone network.</li>
+				<li>Engineered a human tracking module for a gimbaled UAV using YOLO, MAVROS, Python, and PX4 simulator.</li>
+				<li>Dockerized the official PX4 repo to run perception and localization modules in the Sonoma Raceway gazebo world.</li>
+				<li>Interfaced a 5G modem with Jetson Orin NX, enabling BVLOS drone operation using 5G network, Tailscale, and MAVLink.</li>
+			</ul>
+			<ul>
+				<h4><b> ReZoom - Autonomous E-Scooter, University of Maryland | College Park, MD | Feb 2023 - May 2024 </b></h4>
+				<h5>Research Assistant </h5>
+				<li>Designed and assembled 3rd version of the e-scooter using Fusion 360, 3D printing on UltiMaker S5, Nvidia Jetson Orin, Zed2i
+					stereo camera, Phiget IMU, Reach M+ GPS, ODrive BLDC motor controller, and optical encoders.
+				</li>
+				<li>Conceptualized and developed a Homography-based vehicle localization algorithm to estimate e-scooter pose w.r.t. 
+					stop signs using YoloV7, Python, ROS TF, OpenCV, and PyTorch, achieving a real-time frame rate of 15 Hz on Jetson Orin.
+				</li>
+				<li>Containerized 3 computer vision ROS modules using Docker with Nvidia CUDA acceleration and USB port forwarding.</li>
+			</ul>
+			<ul>
+				<h4><b>RAAS Lab, University of Maryland | College Park, MD | Aug 2023 - Dec 2023 </b></h4>
+				<h5>Independent Research </h5>
+				<li>Designed custom hardware accelerated (Nvidia GPU support) Docker images to run Carla Sim with ROS 2 bridge.</li>
+				<li>Achieved fully autonomous vehicle control in 5 Carla Sim maps with mixed traffic (bicycles, sedans, SUVs, and Trucks) using
+					Autoware Universe on a Tesla Model 3, simulated in Carla Sim.</li>
+			</ul>
+			<ul>
+				<h4><b>TRC Robotics | Remote | May 2023 - Aug 2023 </b></h4>
+				<h5>Robotics Software Intern </h5>
+				<li>Designed modules in Embedded-C to generate CAN data frames for controlling the differential-drive robot in 5 different open
+					and closed-loop operating modes, achieving reliable communication at 2m wire length and data rate of 512 kbps. </li>
+				<li>Achieved autonomous navigation in a 80x50 m2 simulated restaurant using ROS (Melodic) navigation stack and Gazebo.</li>
+			</ul>
+			<ul>
+				<h4><b>Tata Digital Ltd. | Mumbai, India | Aug 2020 - Jun 2022 </b></h4>
+				<h5>Data Engineer</h5>
+				<li>Optimized SQL queries and Postgres database for customer service module, reducing response time by 60% across 10 brands.</li>
+				<li>Resolved 50+ high priority production defects using SQL, and JIRA, following Agile Methodologies and coordinating with
+					multiple stakeholders - product managers, Orchestration (API) team, QA team, and other Data Engineers.</li>
+			</ul>
+			<ul>
+				<h4><b>ARDE, DRDO | Pune, India | May 2019 - Jul 20219 </b></h4>
+				<h5>Research Intern</h5>
+				<li>Simulated a PID controller for a BLDC motor on Simulink and implemented it using embedded-C on a Sharc ADSP board.</li>
+				<li>Improved accuracy of actuator position curve tracking by 15% by incorporating ‘fuzzy logic PID controller’ on Simulink.</li>
+			</ul>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/mudit-singal1/" class="icon brands fa-linkedin"><span
+							class="label">Linkedin</span></a></li>
+				<li><a href="https://github.com/muditsingal" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; 2025 Mudit Singal</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
